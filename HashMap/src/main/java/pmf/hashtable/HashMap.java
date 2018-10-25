@@ -422,7 +422,7 @@ public class HashMap<K, V> implements Iterable<HashMap.TableEntry<K, V>> {
 //GREŠKA KOD hasNEXT()!! ona se zove svaki put, ne samo jednom, prepravi sve
 	private class MyIterator implements Iterator<HashMap.TableEntry<K, V>> {
 
-		TableEntry<K, V> current = table[0];
+		TableEntry<K, V> current = table[0]; //ovo ne moze biti, ne poziva se metoda samo jednom
 
 		private int arrayIndex = 0;
 		private int expectedModificationCount = modificationCount;
