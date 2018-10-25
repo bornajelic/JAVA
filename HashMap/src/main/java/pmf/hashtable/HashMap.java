@@ -419,7 +419,7 @@ public class HashMap<K, V> implements Iterable<HashMap.TableEntry<K, V>> {
 		// TODO Auto-generated method stub
 		return new MyIterator();
 	}
-
+//GREŠKA KOD hasNEXT()!! ona se zove svaki put, ne samo jednom, prepravi sve
 	private class MyIterator implements Iterator<HashMap.TableEntry<K, V>> {
 
 		TableEntry<K, V> current = table[0];
