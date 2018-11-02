@@ -97,15 +97,15 @@ public class ComparisonOperators {
 		System.out.println("\nNO TEQUALS\n");
 		
 		IComparisonOperator oper6 = ComparisonOperators.NOT_EQUALS;
-		System.out.println(oper6.satisfied("!", "!")); //false
-		System.out.println(oper6.satisfied("boki", "boku"));//true
+		System.out.println(oper6.satisfied("!", "!"));
+		System.out.println(oper6.satisfied("boki", "boku"));
 		
 		System.out.println("\nLESS OR EQUALS\n");
 		IComparisonOperator oper7 = ComparisonOperators.LESS_OR_EQUALS;
 		
-		System.out.println(oper7.satisfied("Boki", "Boki")); //true
-		System.out.println(oper7.satisfied("Roki", "Boki")); //false
-		System.out.println(oper7.satisfied("Doki", "Boki")); //true
+		System.out.println(oper7.satisfied("Boki", "Boki")); 
+		System.out.println(oper7.satisfied("Roki", "Boki")); 
+		System.out.println(oper7.satisfied("Doki", "Boki")); 
 		
 		
 		
