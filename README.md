@@ -4,4 +4,4 @@ Samostalno izrađeni i nerecenzirani projektni(meni dostupni) zadatci kolegija "
 
 Nisam upisivao kolegij, ovo je rađeno za vlastitu vježbu :)
 
-PS: kroz par dana dolazi parser sa rekurzivnim spustom te CMD emulator
+Nadam se da ću kroz par tjedana uploadati  zadnju zadaću(zadnju koju imam) sa Booleovim funkcijama i Java.Logger-om, te samostalna igrica Snake
